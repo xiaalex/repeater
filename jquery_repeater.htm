@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <meta charset="utf-8" />
+    <title>jQuery Repeater Sample</title>  
+    <!-- include ui theme -->
+    <link type="text/css" href="lib/jquery-ui-themes-1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+    <link type="text/css" href="lib/jquery-ui-repeater/themes/base/jquery.ui.repeater.css" rel="stylesheet" />
+
+    <!-- include jQuery, jQuery ui js -->
+    <script type="text/javascript" src="lib/jquery-1.10.2/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-repeater/ui/jquery.ui.repeater.js"></script>
+    
+    <script>  
+        $(function() {  
+            $("#repeater").repeater();
+        });
+    </script>  
+
+    <style>
+        body {
+	        font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	        font-size: 75%;
+        }
+    </style>
+
+</head>
+<body>
+<h2>Repeater</h2>
+
+<div id="repeater" style="width:40%">
+  <div>Content Header</div>
+  <div>Feeds</div>
+  <div>News</div>
+  <div>Shopping</div>
+  <div>Links</div>
+  <div>Images</div>
+</div>
+
+</body>  
+</html>  
+
